@@ -1,0 +1,27 @@
+# ROS/colcon workspace artifacts
+build/
+install/
+log/
+.colcon/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# CMake/other
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+*.swp

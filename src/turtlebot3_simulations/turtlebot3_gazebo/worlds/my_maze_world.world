@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="my_maze_world">
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <!-- Load your custom maze -->
+    <include>
+      <uri>model://my_maze</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Robot is spawned by spawn_turtlebot3.launch.py; do not include here -->
+  </world>
+</sdf>
